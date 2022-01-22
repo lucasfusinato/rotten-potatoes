@@ -23,6 +23,10 @@ spec:
           value: mongouser
         - name: MONGO_INITDB_ROOT_PASSWORD
           value: mongopwd
+        resources:
+          limits:
+            cpu: "150m"
+            memory: "300Mi"
 ---
 apiVersion: v1
 kind: Service

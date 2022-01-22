@@ -28,7 +28,6 @@ jobs:
           tags: |
             lucasfusinato/rotten-potatoes:latest
             lucasfusinato/rotten-potatoes:${{ github.run_number }}
-          password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
   cd:
     needs: [ci]
