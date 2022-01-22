@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rotten-potatoes
-        image: localhost:5000/kubedev/rotten-potatoes:1.0
+        image: lucasfusinato/rotten-potatoes:1.0
         ports:
         - containerPort: 5000
         env:
